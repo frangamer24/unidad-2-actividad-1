@@ -27,3 +27,6 @@ Enemigo* Pila::pop() {
 bool Pila::estaVacia() {
     return tope == nullptr;
 }
+Nodo* Pila::getTope() {
+    return tope;
+}

@@ -1,2 +1,8 @@
 ﻿  main.cpp
+C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Plan de Trabajo 4\main.cpp(91,52): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Plan de Trabajo 4\main.cpp(92,52): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Plan de Trabajo 4\main.cpp(93,52): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Plan de Trabajo 4\main.cpp(274,46): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Plan de Trabajo 4\main.cpp(295,46): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Plan de Trabajo 4\main.cpp(304,46): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
   Plan de Trabajo 4.vcxproj -> C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Debug\Plan de Trabajo 4.exe

@@ -33,3 +33,17 @@ Enemigo* Cola::desencolar() {
 bool Cola::estaVacia() {
     return frente == nullptr;
 }
+
+void Cola::dibujarCola(sf::RenderWindow& win, float y) {
+    Nodo* actual = frente;
+    float offsetX = 700; // donde dibuja la cola parada
+    while (actual != nullptr) {
+        actual->enemigo->setPosition(offsetX, y);
+        actual->enemigo->draw(win);
+        offsetX += 40;
+        actual = actual->siguiente;
+    }
+}
+Nodo* Cola::getFrente() {  // NUEVO
+    return frente;
+}

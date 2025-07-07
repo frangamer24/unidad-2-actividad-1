@@ -14,6 +14,7 @@ public:
     void push(Enemigo* e);
     Enemigo* pop();
     bool estaVacia();
+    Nodo* getTope();
 };
 
 #endif
