@@ -135,7 +135,11 @@
     <ClCompile Include="Afichmation.cpp" />
     <ClCompile Include="Cola.cpp" />
     <ClCompile Include="Enemigo.cpp" />
+    <ClCompile Include="GestorColas.cpp" />
+    <ClCompile Include="GestorColas.h" />
+    <ClCompile Include="GestorPilas.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Jugador.cpp" />
     <ClCompile Include="Pila.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -143,7 +147,9 @@
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Cola.h" />
     <ClInclude Include="Enemigo.h" />
+    <ClInclude Include="GestorPilas.h" />
     <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Jugador.h" />
     <ClInclude Include="Pila.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
