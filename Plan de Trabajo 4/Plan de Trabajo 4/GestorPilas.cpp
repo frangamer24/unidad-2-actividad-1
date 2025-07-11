@@ -69,28 +69,8 @@ void GestorPilas::actualizar(float dt, Jugador& jugador) {
 
 void GestorPilas::dibujar(sf::RenderWindow& window) {
     for (int i = 0; i < 3; i++) {
-        Nodo* actual;
-        int offsetX;
-
-        // Dibujar pila izquierda
-        actual = pisos[i].izquierda.getTope();
-        offsetX = 50;
-        while (actual) {
-            actual->enemigo->setPosition(offsetX, pisos[i].yPiso);
-            actual->enemigo->draw(window);
-            offsetX += 30;
-            actual = actual->siguiente;
-        }
-
-        // Dibujar pila derecha
-        actual = pisos[i].derecha.getTope();
-        offsetX = 750;
-        while (actual) {
-            actual->enemigo->setPosition(offsetX, pisos[i].yPiso);
-            actual->enemigo->draw(window);
-            offsetX -= 30;
-            actual = actual->siguiente;
-        }
+        pisos[i].izquierda.dibujar(window, pisos[i].yPiso, true);
+        pisos[i].derecha.dibujar(window, pisos[i].yPiso, false);
 
         if (pisos[i].moviendo) {
             pisos[i].moviendo->draw(window);

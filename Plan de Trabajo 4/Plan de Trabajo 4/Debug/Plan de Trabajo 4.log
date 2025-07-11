@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  GestorPilas.cpp
+  Pila.cpp
+  main.cpp
+C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Plan de Trabajo 4\Pila.cpp(41,38): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Generando código...
   Plan de Trabajo 4.vcxproj -> C:\Users\Usuario\Documents\UNL (universidad)\segundo año\programacion de videojuegos 1\unidad 2\Plan de Trabajo 4\Debug\Plan de Trabajo 4.exe

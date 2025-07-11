@@ -2,6 +2,7 @@
 #define PILA_H
 
 #include "Nodo.h"
+#include <SFML/Graphics.hpp>
 
 class Pila {
 private:
@@ -15,6 +16,9 @@ public:
     Enemigo* pop();
     bool estaVacia();
     Nodo* getTope();
+
+    // NUEVO MÉTODO
+    void dibujar(sf::RenderWindow& window, float y, bool izquierda = true);
 };
 
 #endif
